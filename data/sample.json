@@ -1,0 +1,115 @@
+{
+  "items": [
+    {
+      "id": "rotation-01",
+      "name": "rotation_01",
+      "category": "primary",
+      "amount": 13,
+      "score": 53,
+      "status": "ok"
+    },
+    {
+      "id": "rotation-02",
+      "name": "rotation_02",
+      "category": "secondary",
+      "amount": 16,
+      "score": 56,
+      "status": "ok"
+    },
+    {
+      "id": "rotation-03",
+      "name": "rotation_03",
+      "category": "backup",
+      "amount": 19,
+      "score": 59,
+      "status": "ok"
+    },
+    {
+      "id": "rotation-04",
+      "name": "rotation_04",
+      "category": "specialist",
+      "amount": 22,
+      "score": 62,
+      "status": "needs_review"
+    },
+    {
+      "id": "rotation-05",
+      "name": "rotation_05",
+      "category": "unknown",
+      "amount": 25,
+      "score": 65,
+      "status": "ok"
+    },
+    {
+      "id": "rotation-06",
+      "name": "rotation_06",
+      "category": "secondary",
+      "amount": 28,
+      "score": 68,
+      "status": "ok"
+    },
+    {
+      "id": "rotation-07",
+      "name": "rotation_07",
+      "category": "backup",
+      "amount": 31,
+      "score": 71,
+      "status": "ok"
+    },
+    {
+      "id": "rotation-08",
+      "name": "rotation_08",
+      "category": "specialist",
+      "amount": 34,
+      "score": 74,
+      "status": "needs_review"
+    },
+    {
+      "id": "rotation-09",
+      "name": "rotation_09",
+      "category": "primary",
+      "amount": 37,
+      "score": 77,
+      "status": "ok"
+    },
+    {
+      "id": "rotation-10",
+      "name": "rotation_10",
+      "category": "secondary",
+      "amount": 40,
+      "score": 80,
+      "status": "ok"
+    },
+    {
+      "id": "rotation-11",
+      "name": "rotation_11",
+      "category": "backup",
+      "amount": 43,
+      "score": 83,
+      "status": "ok"
+    },
+    {
+      "id": "rotation-12",
+      "name": "rotation_12",
+      "category": "specialist",
+      "amount": 46,
+      "score": 86,
+      "status": "needs_review"
+    }
+  ],
+  "rules": {
+    "min_amount": 5,
+    "max_amount": 60,
+    "allowed_statuses": [
+      "ok",
+      "needs_review",
+      "blocked"
+    ]
+  },
+  "expected": {
+    "total_amount": 354,
+    "avg_score": 69.5,
+    "top_item": "rotation-12",
+    "issue_count": 1
+  }
+}

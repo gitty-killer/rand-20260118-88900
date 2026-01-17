@@ -1,0 +1,13 @@
+{
+  "project_title": "Oncall Rotation Review",
+  "goal": "Summarize oncall load and detect burnout risks.",
+  "entity_name": "rotation",
+  "amount_label": "incidents",
+  "score_label": "load_score",
+  "categories": [
+    "primary",
+    "secondary",
+    "backup",
+    "specialist"
+  ]
+}
